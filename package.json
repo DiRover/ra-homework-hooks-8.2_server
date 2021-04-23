@@ -1,0 +1,23 @@
+{
+  "name": "task_8.2_server",
+  "version": "1.0.0",
+  "description": "server for hooks",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon -w ./ server.js"
+  },
+  "author": "Dmitriy Rovenskiy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "faker": "^5.5.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0"
+  }
+}
